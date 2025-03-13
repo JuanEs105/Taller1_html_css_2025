@@ -186,3 +186,52 @@
 .contact-form button:hover {
     background-color: #0056b3;
 }
+
+/* Estilos del encabezado */
+.header {
+    background-color: #1a1a1a;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+/* Estilos del menú de navegación */
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #cccccc;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 15px;
+    transition: color 0.3s, background 0.3s;
+}
+
+.navbar a:hover {
+    color: #ffffff;
+    background-color: #444;
+    border-radius: 5px;
+}
+
+.navbar .active {
+    color: #ffffff;
+    font-weight: bold;
+    border-bottom: 2px solid #ff6600;
+}
