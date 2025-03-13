@@ -81,7 +81,7 @@
 .premium::after {
     content: "⭐ EDICIÓN PREMIUM";
     position: absolute;
-    top: 20px;
+    top: 40px;
     right: -35px;
     background: linear-gradient(45deg, #ffd700, #ffec80);
     color: #1a1a1a;
